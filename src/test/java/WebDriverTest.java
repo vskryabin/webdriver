@@ -44,6 +44,7 @@ public class WebDriverTest {
         System.out.println("And Yet anotherTest");
         driver.get("https://skryabin.com/market/another-quote.html");
         driver.findElement(By.id("formSubmit")).click();
+        //driver.findElement(By.id("formSubmit")).click();
     }
 
 
