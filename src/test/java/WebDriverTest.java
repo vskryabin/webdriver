@@ -16,12 +16,12 @@ public class WebDriverTest {
        // or
     @BeforeEach
     public void before(){
-        System.out.println("beforeEach1");
+        System.out.println("beforeEach");
         driver = new ChromeDriver();
     }
     @AfterEach
     public void after() {
-        System.out.println("afterEach1");
+        System.out.println("afterEach");
         driver.quit();
     }
     @DisplayName("Quote Test")
