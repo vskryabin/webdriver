@@ -44,5 +44,6 @@ public class WebDriverTest {
         System.out.println("Yet AnotherTest");
         driver.get("https://skryabin.com/market/another-quote.html");
         driver.findElement(By.id("formSubmit2")).click();
+        driver.findElement(By.xpath("//input[@name='username']")).sendKeys("jdoe");
     }
 }
