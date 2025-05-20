@@ -38,5 +38,11 @@ public class WebDriverTest {
         driver.findElement(By.id("formSubmit")).click();
     }
 
-
+    @DisplayName("And Yet Another Test")
+    @Test
+    public void andYetAnotherTest() {
+        System.out.println("Yet AnotherTest");
+        driver.get("https://skryabin.com/market/another-quote.html");
+        driver.findElement(By.id("formSubmit2")).click();
+    }
 }
